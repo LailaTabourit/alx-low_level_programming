@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
-* _puts_recursion - a function that set print string folloew by new line
+* _puts_recursion - a function that  prints a  string followed by new line.
 * @s: pointer variable
+* by : laila tabourit
 * Return: void return nothing
 */
 

@@ -3,6 +3,7 @@
 /**
 * factorial - a function that return factor of number
 * @n: variable input
+* by: laila tabourit
 * Return: Factorial of n
 */
 

@@ -14,17 +14,13 @@
 
 int main(int argc, char *argv[])
 {
-	int a = atoi(argv[1]);
-	int b = atoi(argv[2]);
-	int result;
 
-	result = a * b;
 	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 
-	printf("%d\n", result);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }

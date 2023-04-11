@@ -19,14 +19,12 @@ int main(int argc, char *argv[])
 	int result;
 
 	result = a * b;
-	if (argc == 3)
-	{
-		printf("%d\n", result);
-		return (0);
-	}
-	else
+	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	printf("%d\n", result);
+	return (0);
 }

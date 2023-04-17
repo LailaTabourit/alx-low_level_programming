@@ -6,15 +6,17 @@
 /**
 * struct dog - structure
 * @name: first member
-* @owner: second member
-* @age: third member
+* @age; second member
+* @owner: third member
 *
+* by :lailitaaaaa
 * Description: structure
 */
 struct dog
 {
 	char *name;
-	char *owner;
 	float age;
+	char *owner;
 };
+void init_dog(struct dog *h, char *name, float age, char *owner);
 #endif

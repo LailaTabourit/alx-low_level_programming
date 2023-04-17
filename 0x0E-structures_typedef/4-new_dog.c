@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "dog.h"
 
 /**
@@ -7,26 +8,29 @@
 * by: lailitaa
 * Return: length of string
 */
+
 int _strlen(char *s)
 {
-	int i = 0;
+	int i ;
+	i = 0;
 
 	while (s[i] != '\0')
 	{
 		i++;
 	}
+
 	return (i);
 }
 
 /**
 * *_strcpy - copy the string
-* @a: pointer we want to copy
-* @b: string to be copied
+* @b: pointer we want to copy
+* @a: string to be copied
 *
 * by: lailitaaaaaaaa
 * Return: pointer
 */
-char *_strcpy(char *a, char *b)
+char *_strcpy(char *b, char *a)
 {
 	int len, i;
 

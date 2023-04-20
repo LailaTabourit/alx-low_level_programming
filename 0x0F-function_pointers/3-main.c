@@ -31,10 +31,10 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	if (!get_op_func(operator))
+	if (!(get_op_func(operator)))
 	{
 		printf("Error\n");
-		exit(100);
+		exit(99);
 	}
 
 	printf("%d\n", get_op_func(operator)(num1, num2));

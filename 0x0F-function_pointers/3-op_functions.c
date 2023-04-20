@@ -52,11 +52,12 @@ int op_div(int a, int b)
 	if (b == 0)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(100);
 	}
 	return (a / b);
 
 }
+
 /**
 * op_mod - gets the reminder of the division
 * @a: number 1
@@ -66,5 +67,10 @@ int op_div(int a, int b)
 */
 int op_mod(int a, int b)
 {
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
 	return (a % b);
 }

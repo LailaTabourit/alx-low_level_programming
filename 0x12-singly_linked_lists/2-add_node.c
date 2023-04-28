@@ -2,7 +2,7 @@
 
 /**
 * *add_node - adds new node
-* #head: argument
+* @head: argument
 * @str: argument
 *
 * by: lailita

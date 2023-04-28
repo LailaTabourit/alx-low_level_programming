@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
 * first - function print
 * by : lailita
 *

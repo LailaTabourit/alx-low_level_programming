@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
 * *add_node - adds new node
 * #head: argument
 * @str: argument

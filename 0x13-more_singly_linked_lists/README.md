@@ -146,3 +146,5 @@ void reverseList(struct Node** head) {
 Linked lists are a powerful data structure that can be used to solve many problems in computer science and programming.
 Understanding how they work is an important foundation for any programmer.
 </pre></code>
+<h6>For more info check this : </h6>
+<code><a href="https://www.scaler.com/topics/application-of-linked-list/">here</a></code>

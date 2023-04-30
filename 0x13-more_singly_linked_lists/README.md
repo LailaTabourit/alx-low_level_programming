@@ -143,5 +143,6 @@ void reverseList(struct Node** head) {
 <h2>Conclusion</h2>
 <p>This concludes our course on linked lists in C. We covered the basics of linked lists, including creating a node struct, inserting and deleting nodes, traversing the list, and reversing the list.</p>
 <pre><code>
-Linked lists are a powerful data structure that can be used to solve many problems in computer science and programming. Understanding how they work is an important foundation for any programmer.
+Linked lists are a powerful data structure that can be used to solve many problems in computer science and programming.
+Understanding how they work is an important foundation for any programmer.
 </pre></code>

@@ -9,16 +9,17 @@
 */
 unsigned int binary_to_uint(const char *b)
 {
-	int count;
+	int cmp;
 	unsigned int val = 0;
 
 	if (!b)
 		return (0);
-	for (count = 0; b[count]; count++)
+
+	for (cmp = 0; b[cmp]; cmp++)
 	{
-		if (b[count] < '0' || b[count] > '1')
+		if (b[cmp] < '0' || b[cmp] > '1')
 			return (0);
-		val = 2 * val + (b[count] - '0');
+		val = 2 * val + (b[cmp] - '0');
 	}
 
 	return (val);

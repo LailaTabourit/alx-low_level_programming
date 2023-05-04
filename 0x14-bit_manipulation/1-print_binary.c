@@ -7,20 +7,23 @@
 * by: lailitaa
 * Return: void
 */
-unsigned int binary_to_uint(const char *b)
+void print_binary(unsigned long int n)
 {
-	int cmp;
-	unsigned int val = 0;
+	int cmp, c = 0;
+	unsigned long int current;
 
-	if (!b)
-		return (0);
-
-	for (cmp = 0; b[cmp]; cmp++)
+	for (cmp = 63; cmp >= 0; cmp--)
 	{
-		if (b[cmp] < '0' || b[cmp] > '1')
-			return (0);
-		val = 2 * val + (b[cmp] - '0');
-	}
+		current = n >> cmp;
 
-	return (val);
+		if (current & 1)
+		{
+			_putchar('1');
+			c++;
+		}
+		else if (c)
+			_putchar('0');
+	}
+	if (!c)
+		_putchar('0');
 }

@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* binary_to_uint - prints the binary
-* @b: number
+* print_binary - prints the binary
+* @n: number
 *
 * by: lailitaa
 * Return: void

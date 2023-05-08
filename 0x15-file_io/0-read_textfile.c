@@ -6,7 +6,7 @@
 * @letters: argument
 * Return: ssize
 */
-ssize read_textfile(const char *filename, sizet_t letters)
+ssize_t read_textfile(const char *filename, sizet_t letters)
 {
 	size_t fopen, fread, fwrite;
 	char *file;

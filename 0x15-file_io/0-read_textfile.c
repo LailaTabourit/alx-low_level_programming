@@ -8,30 +8,18 @@
 */
 ssize read_textfile(const char *filename, sizet_t letters)
 {
-	int fopen, fread, fwrite;
+	size_t fopen, fread, fwrite;
 	char *file;
 
-	if (!filename)
-		return (0);
 	fopen = open(filename, O_RDONLY);
-	if (fopen < 0)
+	if (fopen == -1)
 		return (0);
-	file = (char *) malloc(letters * sizeof(char));
+	file = malloc(letters * sizeof(char));
 	if (!file)
 		return (0);
 	fread = read(fopen, file, letters);
-	if (fread < 0)
-	{
-		free(file);
-		return (0);
-	}
-	file[fread] = '\0';
-	fwrite = write(STDOUT_FILEON, file, fread);
-	if (fwrite < 0)
-	{
-		free(file);
-		return (0);
-	}
+	fwrite = write(STDOUT_FILENO, file, fread);
+
 	free(file);
 	close(fopen);
 	return (fwrite);

@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>0x17-doubly_linked_lists</title>
-</head>
 <body>
-  <h1>0x17-doubly_linked_lists</h1>
+  <h1 text-align = 'center'>0x17-doubly_linked_lists</h1>
 
   <h2>Introduction</h2>
   <p>

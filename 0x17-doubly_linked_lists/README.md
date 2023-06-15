@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <h1 text-align = 'center'>0x17-doubly_linked_lists</h1>
+  <h1 text-align = center;>0x17-doubly_linked_lists</h1>
 
   <h2>Introduction</h2>
   <p>

@@ -23,5 +23,5 @@ size_t print_dlistint(const dlistint_t *h)
 		cmp++;
 		h = h->next;
 	}
-	return (cmp)
+	return (cmp);
 }

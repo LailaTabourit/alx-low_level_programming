@@ -24,7 +24,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	temp = ht->array[indx];
 
 	/* check if key exists */
-	while (temp && strcmp(tmp->key, key) != 0)
+	while (temp && strcmp(temp->key, key) != 0)
 		temp = temp->next;
 
 	/* update value if key already exists */
